@@ -7,6 +7,10 @@ fn main() {
 
     println!("first {:?}", first);
     println!("last {:?}", last);
+
+    println!("first {} {}", first.is_some(), first.is_none());
+    println!("last {} {}", last.is_some(), last.is_none());
+    println!("first value {}", first.unwrap());
 }
 // first Some(1)
 // last None
