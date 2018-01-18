@@ -1,4 +1,4 @@
-// string2.rs
+// string3.rs
 fn main() {
     let multilingual = "Hi! ¡Hola! привет!";
     for ch in multilingual.chars() {
